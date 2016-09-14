@@ -9,7 +9,7 @@ Nodo::Nodo(int dato)
 {
     this->dato = dato;
     this->next = NULL;
-    this->prev = NULL
+    this->prev = NULL;
 }
 
 Nodo::Nodo(int dato, Nodo *next)
@@ -19,14 +19,14 @@ Nodo::Nodo(int dato, Nodo *next)
     this->prev = NULL;
 }
 
-Nodo::Nodo(int dato, Nodo *prev)
+Nodo::Nodo(Nodo *prev, int dato)
 {
     this->dato = dato;
     this->next = NULL;
     this->prev = prev;
 }
 
-Nodo::Nodo(int dato, Nodo *prev, Nodo *next)
+Nodo::Nodo(Nodo *prev, int dato, Nodo *next)
 {
     this->dato = dato;
     this->next = next;

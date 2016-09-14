@@ -10,8 +10,8 @@ class Nodo
 public:
     Nodo(int dato);
     Nodo(int dato, Nodo *next);
-    Nodo(int dato, Nodo *prev);
-    Nodo(int dato, Nodo *prev, Nodo *next);
+    Nodo(Nodo *prev, int dato);
+    Nodo(Nodo *prev, int dato, Nodo *next);
     int getDato();
     Nodo *getNext();
     Nodo *getPrev();
