@@ -47,11 +47,13 @@ void ListaDoblemLigada::show()
 void ListaDoblemLigada::pushInicio(int dato)
 {
     Nodo *n = new Nodo(dato, h);
-	if (this->isEmpty())
+	if (!this->isEmpty())
 	{
-		t = n;
+		h->setPrev(n);
+        h = n;
+        return;
 	}
-    h->setPrev(n);
+    t = n;
     h = n;
 }
 
