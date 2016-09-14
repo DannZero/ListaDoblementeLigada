@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/ListaDoblemLigada.h
+Nodo.h
+../include/Nodo.h
+
+../include/Nodo.h
+iostream
+-
+
+/home/daniel/Documentos/Algoritmos y Estructuras de Datos/ListaDoblementeLigada/src/ListaDoblemLigada.cpp
+ListaDoblemLigada.h
+/home/daniel/Documentos/Algoritmos y Estructuras de Datos/ListaDoblementeLigada/src/ListaDoblemLigada.h
+
+/home/daniel/Documentos/Algoritmos y Estructuras de Datos/ListaDoblementeLigada/src/Nodo.cpp
+Nodo.h
+/home/daniel/Documentos/Algoritmos y Estructuras de Datos/ListaDoblementeLigada/src/Nodo.h
+
+/home/daniel/Documentos/Algoritmos y Estructuras de Datos/ListaDoblementeLigada/src/main.cpp
+ListaDoblemLigada.h
+/home/daniel/Documentos/Algoritmos y Estructuras de Datos/ListaDoblementeLigada/src/ListaDoblemLigada.h
+

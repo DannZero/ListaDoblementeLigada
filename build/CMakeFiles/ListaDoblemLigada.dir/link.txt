@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/ListaDoblemLigada.dir/src/Nodo.cpp.o CMakeFiles/ListaDoblemLigada.dir/src/main.cpp.o CMakeFiles/ListaDoblemLigada.dir/src/ListaDoblemLigada.cpp.o  -o ListaDoblemLigada -rdynamic 

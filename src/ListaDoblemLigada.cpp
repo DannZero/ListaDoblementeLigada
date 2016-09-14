@@ -75,7 +75,7 @@ void ListaDoblemLigada::pushAt(int dato, int ref)
         {
             cout << "Referencia inválida, agregando al inicio..." << endl;
         }
-        addInicio(dato);
+        pushInicio(dato);
 		return;
     }
     if (!this->isEmpty())
@@ -86,7 +86,7 @@ void ListaDoblemLigada::pushAt(int dato, int ref)
 			if (n == t)
 			{
 				cout << "El tamaño de la lista es menor, se agregará al final..." << endl;
-				this->addFinal(dato);
+				this->pushFinal(dato);
 				return;
 			}
 			n = n->getNext();
@@ -97,7 +97,7 @@ void ListaDoblemLigada::pushAt(int dato, int ref)
         return;
     }
     cout << "La lista está vacía, se agregará el dato al inicio..." << endl;
-	this->addInicio(dato);
+	this->pushInicio(dato);
 }
 
 int ListaDoblemLigada::popInicio()

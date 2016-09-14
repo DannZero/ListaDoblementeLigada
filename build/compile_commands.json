@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/daniel/Documentos/Algoritmos y Estructuras de Datos/ListaDoblementeLigada/build",
+  "command": "/usr/bin/c++    -I\"/home/daniel/Documentos/Algoritmos y Estructuras de Datos/ListaDoblementeLigada/include\"  -g   -o CMakeFiles/ListaDoblemLigada.dir/src/Nodo.cpp.o -c \"/home/daniel/Documentos/Algoritmos y Estructuras de Datos/ListaDoblementeLigada/src/Nodo.cpp\"",
+  "file": "/home/daniel/Documentos/Algoritmos y Estructuras de Datos/ListaDoblementeLigada/src/Nodo.cpp"
+},
+{
+  "directory": "/home/daniel/Documentos/Algoritmos y Estructuras de Datos/ListaDoblementeLigada/build",
+  "command": "/usr/bin/c++    -I\"/home/daniel/Documentos/Algoritmos y Estructuras de Datos/ListaDoblementeLigada/include\"  -g   -o CMakeFiles/ListaDoblemLigada.dir/src/main.cpp.o -c \"/home/daniel/Documentos/Algoritmos y Estructuras de Datos/ListaDoblementeLigada/src/main.cpp\"",
+  "file": "/home/daniel/Documentos/Algoritmos y Estructuras de Datos/ListaDoblementeLigada/src/main.cpp"
+},
+{
+  "directory": "/home/daniel/Documentos/Algoritmos y Estructuras de Datos/ListaDoblementeLigada/build",
+  "command": "/usr/bin/c++    -I\"/home/daniel/Documentos/Algoritmos y Estructuras de Datos/ListaDoblementeLigada/include\"  -g   -o CMakeFiles/ListaDoblemLigada.dir/src/ListaDoblemLigada.cpp.o -c \"/home/daniel/Documentos/Algoritmos y Estructuras de Datos/ListaDoblementeLigada/src/ListaDoblemLigada.cpp\"",
+  "file": "/home/daniel/Documentos/Algoritmos y Estructuras de Datos/ListaDoblementeLigada/src/ListaDoblemLigada.cpp"
+}
+]
